@@ -17,13 +17,23 @@
     
 }
 
-.main_part{
+/* .main_part{
     background-image:url("C:\Users\hp\Desktop\layout4\assets\image\main_image_2.jpeg")
+} */
+
+.back_image{
+    background-image: url("./image/main_image_2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 }
 
-.asd{
-    background-color: rgb(0, 153, 255);
-}
+ .asd{
+    background-color: rgb(0, 153, 255,0.5);
+} 
+
+
 
 .container_text_1{
     font-size: 150px;
@@ -56,7 +66,7 @@
 
 .line_2{
     width: 6px;
-    height: 70px;
+    height: 85px;
     background-color:  rgb(254, 68, 99);
     
 }
